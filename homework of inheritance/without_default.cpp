@@ -1,8 +1,7 @@
 //constructor in base and derived classes without default constructor 
 #include<iostream>
 using namespace std;
-class base;
-{
+class base{
     public:
          base(int data)
          {
@@ -20,4 +19,5 @@ class derived:public base
 int main ()
 {
 derived d(5);
+
 }

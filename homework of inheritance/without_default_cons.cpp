@@ -12,7 +12,7 @@ class base
 class derived:public base
 {
     public:
-        derived(int data)
+        derived(int data): base(data)
         {
             cout<<"parameterized constructor from derived class"<<endl;
         }
